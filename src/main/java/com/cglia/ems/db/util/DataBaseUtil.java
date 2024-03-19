@@ -12,8 +12,8 @@ public class DataBaseUtil {
         dataSource = new BasicDataSource();
         dataSource.setDriverClassName("net.sourceforge.jtds.jdbc.Driver");
         dataSource.setUrl("jdbc:jtds:sqlserver:/192.168.1.98:1433;DatabaseName=EP2_MSSQL_INTG_DEV_102;SelectMethod=cursor");
-        dataSource.setUsername("acinikalgn");
-        dataSource.setPassword("acinikapwd");
+        dataSource.setUsername("user");
+        dataSource.setPassword("pwd");
     }
 
     public static Connection getConnection() throws SQLException {
