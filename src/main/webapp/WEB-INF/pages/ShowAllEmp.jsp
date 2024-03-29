@@ -134,6 +134,7 @@
 				<tr>
 					<td colspan="6">
 						<div class="d-flex justify-content-end">
+							<a class="btn btn-primary me-2" href="getpdf" role="button">Download</a>
 							<a class="btn btn-primary me-2" onclick="updateEmployee()" href="#" role="button">Update</a>
 							<a class="btn btn-primary" onclick="deleteEmployee()" href="#" role="button">Delete</a>
 						
