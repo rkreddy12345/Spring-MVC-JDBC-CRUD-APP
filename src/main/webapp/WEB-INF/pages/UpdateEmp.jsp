@@ -48,17 +48,18 @@
 				</div>
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label">Name</label>
-					<input type="text" class="form-control" id="name" name="name" value="<c:out value="${emp.name}" />">
+					<input type="text" class="form-control" id="name" name="name" required value="<c:out value="${emp.name}" />">
 				</div>
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label">Email</label>
-					<input type="text" class="form-control" id="email" name="email" value="<c:out value="${emp.email}" />">
+					<input type="text" class="form-control" id="email" name="email" required value="<c:out value="${emp.email}" />">
 				</div>
 
 				<div class="mb-3">
+				<label for="dept" class="form-label">Department</label> 
 					<select class="form-select" aria-label="Default select example"
-						name="dept" id="dept">
-						<option selected>Select department</option>
+						name="dept" id="dept" required>
+						<option selected disabled value="">Select department</option>
 						<option value="PMS">PMS</option>
 						<option value="GMS">GMS</option>
 						<option value="LARS">LARS</option>
@@ -66,7 +67,7 @@
 				</div>
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label">Salary</label>
-					<input type="text" class="form-control" id="salary" name="salary" value="<c:out value="${emp.salary}" />">
+					<input type="text" class="form-control" id="salary" required name="salary" value="<c:out value="${emp.salary}" />">
 				</div>
 				<div>
 					<button type="submit" class="btn btn-primary">Update</button>
