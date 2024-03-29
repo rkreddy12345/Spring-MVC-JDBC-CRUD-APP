@@ -44,7 +44,7 @@ public class PDFController {
             document.open();
 
             // Defining font style, size, color for the title
-            Font titleFont = FontFactory.getFont(FontFactory.HELVETICA_BOLD, 18, BaseColor.BLUE);
+            Font titleFont = FontFactory.getFont(FontFactory.HELVETICA_BOLD, 18, BaseColor.RED);
             //creating paragrapgh for the title 
             Paragraph title = new Paragraph("Employee List", titleFont);
             //setting title alignment to center of ODF
