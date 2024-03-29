@@ -53,7 +53,8 @@
 				</div>
 
 				<div class="mb-3">
-					<label for="dept" class="form-label">Department</label> <select
+					<label for="dept" class="form-label">Department</label> 
+					<select
 						class="form-select" id="dept" name="dept" required>
 						<option selected disabled value="">Select department</option>
 						<option value="PMS">PMS</option>
