@@ -32,7 +32,7 @@ public class EMSController {
 	public String addEmployee(HttpServletRequest request) {
 		return "AddEmp";
 	}
-	//To-Do     ---double posting problem
+	
 	@RequestMapping(path="/save", method=RequestMethod.POST)
 	public String saveEmployee(@ModelAttribute Employee emp, HttpServletRequest request, RedirectAttributes attrs) {
 		System.out.println(emp);
